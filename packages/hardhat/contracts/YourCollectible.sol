@@ -29,7 +29,7 @@ contract YourCollectible is ERC721, Ownable {
   mapping (uint256 => uint256) public chubbiness;
 
   uint256 mintDeadline = block.timestamp + 24 hours;
-
+//mint item
   function mintItem()
       public
       returns (uint256)

@@ -22,7 +22,7 @@ contract YourCollectible is ERC721, Ownable {
   Counters.Counter private _tokenIds;
 
   constructor() public ERC721("Loogies", "LOOG") {
-    // RELEASE THE LOOGIES!
+    // RELEASE THE LOOGIES!!!
   }
 
   mapping (uint256 => bytes3) public color;
